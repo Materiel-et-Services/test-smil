@@ -11,11 +11,10 @@
     <body>
         <par>
             <!-- define what should be played in regions -->
-            <seq repeatCount="indefinite"> <video
-                    src="https://matserv.s3.fr-par.scw.cloud/JSP/DIADORA%20-%20RUN%20NET%20AIRBOX.mp4"
-                    region="main"></video> <img dur="5s"
-                    src="https://signageos-demo.s3.eu-central-1.amazonaws.com/smil/samples/assets/landscape2.jpg"
-                    region="main"></img> </seq>
+            <seq repeatCount="indefinite"> 
+            <video src="https://matserv.s3.fr-par.scw.cloud/JSP/JSP%20-%20FIXATION%20CAPE.mp4" region="main"></video>
+                     <img dur="5s"  src="https://signageos-demo.s3.eu-central-1.amazonaws.com/smil/samples/assets/landscape2.jpg" region="main"></img>
+            </seq>
         </par>
     </body>
 </smil>
