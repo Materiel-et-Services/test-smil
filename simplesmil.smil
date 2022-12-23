@@ -3,7 +3,7 @@
     <head>
         <layout>
             <root-layout width="1080" height="1920" backgroundColor="#FFFFFF" /> <!-- define regions/zones -->
-            <region regionName="main" left="0" top="0" width="1080" height="1920" z-index="1"
+            <region regionName="main" left="0" top="0" width="1920" height="1080" z-index="1"
                 backgroundColor="#FFFFFF" />
         </layout>
     </head>
