@@ -1,6 +1,7 @@
 <smil>
 
     <head>
+        <meta http-equiv="Refresh" content="60" expr="adapi-weekday()=4" onlySmilUpdate="true"/>
         <layout>
             <root-layout width="1080" height="1920" backgroundColor="#FFFFFF" /> <!-- define regions/zones -->
             <region regionName="main" left="0" top="0" width="1920" height="1080" z-index="1"
@@ -14,7 +15,7 @@
             <seq repeatCount="indefinite"> <video
                     src="https://matserv.s3.fr-par.scw.cloud/JSP/jsplandscape.mp4"
                     region="main"></video> <img dur="5s"
-                    src="https://images.pexels.com/photos/8206884/pexels-photo-8206884.jpeg"
+                    src="https://raw.githubusercontent.com/Materiel-et-Services/test-smil/main/landscape2.jpg"
                     region="main"></img> </seq>
         </par>
     </body>
