@@ -18,6 +18,15 @@
                     <video
                     src="https://raw.githubusercontent.com/Materiel-et-Services/test-smil/main/JSP%20-%20PRESS%20TO%20CHECK.mp4"
                     region="main"></video>
+                    <video
+                    src="https://raw.githubusercontent.com/Materiel-et-Services/test-smil/main/DIADORA%20-%20RUN%20NET%20AIRBOX.mp4"
+                    region="main"></video>
+                    <video
+                    src="https://raw.githubusercontent.com/Materiel-et-Services/test-smil/main/JSP%20-%20FIXATION%20CAPE.mp4"
+                    region="main"></video>
+                    <video
+                    src="https://raw.githubusercontent.com/Materiel-et-Services/test-smil/main/JSP%20-%20FIXATION%20EVOSPEC.mp4"
+                    region="main"></video>
                     <img dur="5s"
                     src="https://raw.githubusercontent.com/Materiel-et-Services/test-smil/main/landscape2.jpg"
                     region="main"></img> </seq>
