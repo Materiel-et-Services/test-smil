@@ -11,11 +11,40 @@
     <body>
         <par>
             <!-- define what should be played in regions -->
-            <seq repeatCount="indefinite"> <video
-                    src="https://signageos-demo.s3.eu-central-1.amazonaws.com/smil/samples/assets/landscape1.mp4"
-                    region="main"></video> <img dur="5s"
-                    src="https://signageos-demo.s3.eu-central-1.amazonaws.com/smil/samples/assets/landscape2.jpg"
-                    region="main"></img> </seq>
+            <seq repeatCount="indefinite"> 
+            <video
+                    src="https://matserv.s3.fr-par.scw.cloud/JSP/DIADORA%20-%20RUN%20NET%20AIRBOX.mp4"
+                    region="main">
+            </video> 
+             <video
+                    src="https://matserv.s3.fr-par.scw.cloud/JSP/JSP%20-%20FIXATION%20CAPE.mp4"
+                    region="main">
+            </video> 
+             <video
+                    src="https://matserv.s3.fr-par.scw.cloud/JSP/JSP%20-%20FIXATION%20EVOSPEC.mp4"
+                    region="main">
+            </video> 
+             <video
+                    src="https://matserv.s3.fr-par.scw.cloud/JSP/JSP%20-%20FORESTERY.webm"
+                    region="main">
+            </video> 
+             <video
+                    src="https://matserv.s3.fr-par.scw.cloud/JSP/JSP%20-%20PRESS%20TO%20CHECK%202.mp4"
+                    region="main">
+            </video> 
+            
+            <video
+                    src="https://matserv.s3.fr-par.scw.cloud/JSP/JSP%20-%20PRESS%20TO%20CHECK.mp4"
+                    region="main">
+            </video> 
+            <video
+                    src="https://matserv.s3.fr-par.scw.cloud/JSP/JSP%20-%20SONIS.mp4"
+                    region="main">
+            </video> 
+            <video
+                    src="https://matserv.s3.fr-par.scw.cloud/JSP/JSP%20-%20VISTA.mp4"
+                    region="main">
+            </video> 
         </par>
     </body>
 </smil>
