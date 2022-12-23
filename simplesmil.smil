@@ -13,7 +13,7 @@
         <par>
             <!-- define what should be played in regions -->
             <seq repeatCount="indefinite"> <video
-                    src="https://raw.githubusercontent.com/Materiel-et-Services/test-smil/main/landscape1.mp4"
+                    src="https://raw.githubusercontent.com/Materiel-et-Services/test-smil/main/JSP%20-%20SONIS.mp4"
                     region="main"></video> <img dur="5s"
                     src="https://raw.githubusercontent.com/Materiel-et-Services/test-smil/main/landscape2.jpg"
                     region="main"></img> </seq>
