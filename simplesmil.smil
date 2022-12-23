@@ -25,14 +25,9 @@
                     region="main">
             </video> 
              <video
-                    src="https://matserv.s3.fr-par.scw.cloud/JSP/JSP%20-%20FORESTERY.webm"
-                    region="main">
-            </video> 
-             <video
                     src="https://matserv.s3.fr-par.scw.cloud/JSP/JSP%20-%20PRESS%20TO%20CHECK%202.mp4"
                     region="main">
             </video> 
-            
             <video
                     src="https://matserv.s3.fr-par.scw.cloud/JSP/JSP%20-%20PRESS%20TO%20CHECK.mp4"
                     region="main">
