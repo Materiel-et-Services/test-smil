@@ -12,7 +12,7 @@
         <par>
             <!-- define what should be played in regions -->
             <seq repeatCount="indefinite"> 
-            <video src="https://matserv.s3.fr-par.scw.cloud/JSP/JSPLANDSCAPE.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=SCW5YRMJ4R672W12806C%2F20221223%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20221223T123806Z&X-Amz-Expires=3599&X-Amz-Signature=573cf0cb7e453353662254afd89dd35cb5113769997bcc4f27edf41612aa838a&X-Amz-SignedHeaders=host&x-id=GetObject" region="main"></video>
+            <video src="https://matserv.s3.fr-par.scw.cloud/JSP/jsplandscape.mp4" region="main"></video>
                      <img dur="5s"  src="https://signageos-demo.s3.eu-central-1.amazonaws.com/smil/samples/assets/landscape2.jpg" region="main"></img>
             </seq>
         </par>
