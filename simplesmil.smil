@@ -45,6 +45,7 @@
                     src="https://matserv.s3.fr-par.scw.cloud/JSP/JSP%20-%20VISTA.mp4"
                     region="main">
             </video> 
+        </seq> 
         </par>
     </body>
 </smil>
