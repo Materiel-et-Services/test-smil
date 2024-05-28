@@ -1,6 +1,6 @@
 <smil>
 
-    <head>
+     <head>
         <meta http-equiv="Refresh" content="60" expr="adapi-weekday()=4" />
         <layout>
             <root-layout width="1920" height="1080" backgroundColor="#FFFFFF" /> <!-- define regions/zones -->
@@ -8,7 +8,7 @@
                 backgroundColor="#FFFFFF" />
         </layout>
     </head>
-  <body>
+<body>
         <par>
             <!-- define what should be played in regions -->
             <seq repeatCount="indefinite">
@@ -23,4 +23,3 @@
   </par>
     </body>
 </smil>
-
