@@ -1,10 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<smil xmlns="http://www.w3.org/2001/SMIL20/Language">
-  <head>
-    <meta name="title" content="Playlist de Vidéos"/>
-  </head>
+<smil>
+
+    <head>
+        <meta http-equiv="Refresh" content="60" expr="adapi-weekday()=4" />
+        <layout>
+            <root-layout width="1920" height="1080" backgroundColor="#FFFFFF" /> <!-- define regions/zones -->
+            <region regionName="main" left="0" top="0" width="1920" height="1080" z-index="1"
+                backgroundColor="#FFFFFF" />
+        </layout>
+    </head>
   <body>
-    <seq>
+        <par>
+            <!-- define what should be played in regions -->
+            <seq repeatCount="indefinite">
       <video src="https://res.cloudinary.com/dpenpn5mc/video/upload/v1671807940/samples/MS-SAFETY/JSP_-_PRESS_TO_CHECK_2_sl6d48.mp4" region="main" soundLevel="100%" />
       <video src="https://res.cloudinary.com/dpenpn5mc/video/upload/v1671807939/samples/MS-SAFETY/JSP_-_VISTA_okgecs.mp4" region="main" soundLevel="100%" />
       <video src="https://res.cloudinary.com/dpenpn5mc/video/upload/v1671807926/samples/MS-SAFETY/JSP_-_SONIS_hpgyet.mp4" region="main" soundLevel="100%" />
@@ -13,5 +20,7 @@
       <video src="https://res.cloudinary.com/dpenpn5mc/video/upload/v1671807919/samples/MS-SAFETY/DIADORA_-_RUN_NET_AIRBOX_smfsnr.mp4" region="main" soundLevel="100%" />
       <video src="https://res.cloudinary.com/dpenpn5mc/video/upload/v1671807913/samples/MS-SAFETY/JSP_-_FIXATION_CAPE_ozto55.mp4" region="main" soundLevel="100%" />
     </seq>
-  </body>
+  </par>
+    </body>
 </smil>
+
