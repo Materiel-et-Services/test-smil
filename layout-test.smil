@@ -1,0 +1,48 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<smil xmlns="http://www.w3.org/2001/SMIL20/Language">
+
+  <head>
+    <!-- Définition du layout écran -->
+    <layout>
+      <!-- Résolution logique de l'affichage -->
+      <root-layout width="1920" height="1080" backgroundColor="black"/>
+
+      <!-- Deux régions : haut (80%) et bas (20%) -->
+      <region
+        regionName="haut"
+        top="0%"
+        left="0%"
+        width="100%"
+        height="80%"
+        z-index="1"
+      />
+      <region
+        regionName="bas"
+        top="80%"
+        left="0%"
+        width="100%"
+        height="20%"
+        z-index="2"
+        backgroundColor="black"
+      />
+    </layout>
+  </head>
+
+  <body>
+    <!-- Lecture simultanée des deux médias -->
+    <par>
+      <!-- Zone haute : vidéo -->
+      <video
+        src="https://res.cloudinary.com/dpenpn5mc/video/upload/v1671807922/samples/MS-SAFETY/JSP_-_PRESS_TO_CHECK_o8hnjf.mp4"
+        region="haut"
+        fit="meetbest"  />
+      
+      <!-- Zone basse : logo (image fixe) -->
+      <img
+        src="https://res.cloudinary.com/dpenpn5mc/image/upload/v1671808413/samples/MS-SAFETY/LOGO_35_POUR_FOND_BLEU_OU_NOIR_vuoszz.png"
+        region="bas"
+        fit="meet"  />
+    </par>
+  </body>
+</smil>
