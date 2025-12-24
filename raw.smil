@@ -1,0 +1,13 @@
+<smil>
+	<head>
+		<layout>
+		  <root-layout width="1920" height="1080" backgroundColor="#000" />
+		  <region regionName="screen1" top="0" left="0" width="50%" height="100%" z-index="0" backgroundColor="red" />
+		  <region xml:id="screen2" top="0" left="50%" width="50%" height="100%" z-index="0" backgroundColor="green" />
+		</layout>
+	</head>
+	<body>
+      <video src="https://res.cloudinary.com/dpenpn5mc/video/upload/v1671807926/samples/MS-SAFETY/JSP_-_SONIS_hpgyet.mp4" region="screen1" dur="20s" />
+      <img src="https://res.cloudinary.com/dpenpn5mc/image/upload/v1671808413/samples/MS-SAFETY/LOGO_35_POUR_FOND_BLEU_OU_NOIR_vuoszz.png" region="screen2" dur="20s" />
+	</body>
+</smil>
