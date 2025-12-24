@@ -31,6 +31,7 @@
     <!-- Lecture simultanée des deux médias -->
     <par>
       <!-- Zone haute : vidéo -->
+<seq repeatCount="indefinite">
       <video
         src="https://res.cloudinary.com/dpenpn5mc/video/upload/v1671807922/samples/MS-SAFETY/JSP_-_PRESS_TO_CHECK_o8hnjf.mp4"
         region="haut"
@@ -41,6 +42,7 @@
         src="https://res.cloudinary.com/dpenpn5mc/image/upload/v1671808413/samples/MS-SAFETY/LOGO_35_POUR_FOND_BLEU_OU_NOIR_vuoszz.png"
         region="bas"
         fit="meet"  />
+</seq>
     </par>
   </body>
 </smil>
