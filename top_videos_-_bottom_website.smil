@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<smil>
+  <head>
+    <layout>
+      <root-layout width="1920" height="1080" backgroundColor="#000"/>
+
+      <!-- Upper half -->
+      <region regionName="screen1" top="0%" left="0%" width="100%" height="50%" backgroundColor="red"/>
+
+      <!-- Lower half -->
+      <region regionName="screen2" top="50%" left="0%" width="100%" height="50%" backgroundColor="green"/>
+    </layout>
+  </head>
+
+  <body>
+    <!-- Use par to render both zones at the same time -->
+    <par endsync="last">
+      <!-- Top: loop the video forever -->
+      <seq repeatCount="indefinite">
+        <video
+          src="https://res.cloudinary.com/dpenpn5mc/video/upload/v1671807926/samples/MS-SAFETY/JSP_-_SONIS_hpgyet.mp4"
+          region="screen1"
+          fit="slice" />
+      </seq>
+
+      <!-- Bottom: website -->
+      <text
+        src="https://guyanemateriels.com/"
+        region="screen2"
+        dur="indefinite" />
+    </par>
+  </body>
+</smil>
